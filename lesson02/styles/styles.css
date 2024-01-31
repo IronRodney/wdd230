@@ -1,0 +1,64 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #EFFFDD;
+    max-width: 1000px;
+}
+
+
+main {
+    display: grid;
+    max-width: 1000px;
+    margin-right: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+header {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+h1 h3 h4 {
+    color: #006400;
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff
+}
+
+img {
+    max-width: 90%;
+}
+
+@media (width < 550px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (900px > width >= 550px) {
+    
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (width >=900px) or (orientation: landscape) {
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
