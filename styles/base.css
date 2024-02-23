@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #333;
     background-color: #EFFFDD;
+    position: relative;
 }
 
 
@@ -16,6 +17,8 @@ main {
 
 header {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -23,18 +26,45 @@ header img {
     max-width: 15%;
     height: auto;
     border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
 }
 
 nav {
     margin-bottom: 20px;
-    display: grid;
+    display: flex;
     justify-content: center;
-
+    position: relative;
 
 }
+
+nav a {
+    display: inline-block;
+
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #006400;
+    color: #fff;
+}
+
 ul {
     list-style-type: none;
   }
+
+.title-container {
+    text-align: center;
+    margin: 20px 0;
+}
 
 h2 {
     color: #006400;
@@ -59,6 +89,9 @@ a {
     color: #006400;
     margin: 0 10px;
 }
+
+
+
 
 @media (width < 600px) {
     main {
