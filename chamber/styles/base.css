@@ -190,3 +190,12 @@ footer p {
     border-radius: 50%;
   }
 
+  .discover {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .sidebar {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
