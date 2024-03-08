@@ -1,0 +1,43 @@
+{
+    "familyName" : "Mamabolo",
+    "moveInDate" : "2021-02-14",
+    "familySize" : 7,
+    "visitedBishop" : "Yes",
+    "familyMembers" : [
+        {
+            "name" : "Karabo Mamabolo",
+            "gender" : "Male",
+            "birthDate" : "1935-09-30"
+        },
+        {
+            "name" : "Bonolo Mamabolo",
+            "gender" : "Female",
+            "birthDate" : "1940-12-05"
+        },
+        {
+            "name" : "Motheo Mamabolo",
+            "gender" : "Male",
+            "birthDate" : "1955-06-27"
+        },
+        {
+            "name" : "Rethabile Mamabolo",
+            "gender" : "Female",
+            "birthDate" : "1960-01-29"
+        },
+        {
+            "name" : "Nandi Mamabolo",
+            "gender" : "Female",
+            "birthDate" : "1963-12-14"
+        },
+        {
+            "name" : "Wandile Mamabolo",
+            "gender" : "Male",
+            "birthDate" : "1965-03-03"
+        },
+        {
+            "name" : "Atlega Mamabolo",
+            "gender" : "Male",
+            "birthDate" : "1968-04-21"
+        }
+    ]
+}

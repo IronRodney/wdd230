@@ -1,0 +1,39 @@
+section {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+  }
+
+footer, header {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+h2 {
+    color: #fff;
+  }
+  
+p {
+    color: #ccc;
+  }
+  
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+
+
+  #cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
