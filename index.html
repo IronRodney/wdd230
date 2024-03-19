@@ -85,7 +85,13 @@
             <h3>Information</h3>
             <ul class="info-list">
                 <li>Kgatleng, Botswana</li>
-                <li id="temperature">Weather: Coming up...</li>
+                <li id="temperature">
+                    <span id="current-temp"></span>
+                    <figure>
+                        <img id="weather-icon">
+                        <figcaption></figcaption>
+                    </figure>
+                </li>
                 <li id="visits-label">Page Visits: <span id="visits"></span></li>
 
             </ul>
@@ -102,5 +108,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    
+    <script src="scripts/getweather.js"></script>
 </body>
 </html>
