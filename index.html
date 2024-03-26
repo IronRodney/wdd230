@@ -1,25 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta 
         name="description" 
         content="WDD 230 - Web Frontend Development
         Karabo Mamabolo
-        course assignment portal - Chamber of Commerce Project" />
+        course assignment portal" />
     <meta name="author" content="Karabo Mamabolo" />
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/dark-mode.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <title>Kgatleng Chamber of Commerce - Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Karabo Mamabolo - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="favicon.ico">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://ironrodney.github.io/wdd230/">
@@ -27,7 +23,7 @@
     <meta property="og:title" content="Karabo Mamabolo - WDD 230 - Web Frontend Development">
     <meta property="og:description" content="WDD 230 - Web Frontend Development
         Karabo Mamabolo
-        Kgatleng Chamber of Commerce">
+        course assignment portal">
     <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/2/23/Mochudi.jpg">
 
     <!-- Twitter Meta Tags -->
@@ -37,87 +33,92 @@
     <meta name="twitter:title" content="Karabo Mamabolo - WDD 230 - Web Frontend Development">
     <meta name="twitter:description" content="WDD 230 - Web Frontend Development
         Karabo Mamabolo
-        Kgatleng Chamber of Commerce">
+        course assignment portal">
     <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/2/23/Mochudi.jpg">
-    </head>
+
+</head>
 <body>
     <header>
-        <img src="../chamber/images/kgatleng-chamber-of-commerce-high-resolution-logo-transparent.png" alt="The_chamber_logo" class="logo">
-        <div class="welcome">
-            <h3>Welcome to the</h3>
-            <h2>Kgatleng Chamber of Commerce</h2>
-        </div>
-
-        <button id="mode" class="hamburger">&#9776;</button>
-
-        <nav class="nav-links">
-            <a href="#">Home</a>
-            <a href="../chamber/discover.html">Discover</a>
-            <a href="">Directory</a>
-            <a href="">Join</a>
-        </nav>
-        <label class="switch">
-            <input type="checkbox" id="dark-mode-toggle">
-            <span class="slider round"></span>
-        </label>
-
-
+        <img src="images/Karabo.webp" alt="Picture of Karabo Mamabolo">
+        <h1>Karabo Mamabolo</h1>
     </header>
+    <nav>
+        
+        <a href="#">Home</a>
+        <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+        <a href="../wdd230/chamber/index.html">Chamber</a>
+        <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/32?lang=eng" target="_blank">Scripture</a>
+        
+    </nav>
+    <div class="hero">
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/belem_brazil_temple_exterior2_small.webp" />
+            <source media="(max-width: 1000px)" srcset="images/belem_brazil_temple_exterior2_medium.webp" />
+            <img src="../wdd230/images/belem_brazil_temple_exterior2.webp" alt="Belem Brazil Temple" width="1500" height="750">
+            <div class="herolabel">
+                <p>Belem Brazil Temple</p>
+            </div>
+        </picture>
+    </div>
+    <div class="title-container">
+        <h2>WDD 230: Web Frontend Development</h2>
+    </div>
     <main>
-        <section class="hero">
-            <img src="../chamber/images/camelthorn-tree-acacia-sunrise-1536x1024.webp" alt="hero_image_business_woman">
-            <div class="hero-text">
-            <h1>
-                Kgatleng Chamber of Commerce: <br>
-                In Business For A Better Kgatleng
-            </h1>
-            <p>Want to make a difference in the Kgatleng business landscape?</p>
-            <button class="action-button">Join Now!</button>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul>
+                <li>01:<a href=""></a></li>
+                <li>02:
+                    <a href="../wdd230/lesson02/design-principles.html">Media Query</a></li>
+                <li>03:
+                    <a href="../wdd230/images/CSS_Combinators_exercise.jpeg">CSS Combinators Exercise</a> | 
+                    <a href="https://codepen.io/ironrodney/pen/ExMbPZd" target="_blank">Pseudo-Element Exercise</a> | 
+                    <a href="https://codepen.io/ironrodney/pen/eYXeJKP" target="_blank">Responsive Menu</a></li>
+                <li>04:
+                    <a href="https://codepen.io/ironrodney/pen/BabrmvO" target="_blank">CSS Pseudo-Classes</a></li>
+                <li>05:
+                    <a href="../wdd230/lesson05/bom.html">Book of Mormon - Top 10</a></li>
+                <li>06:
+                    <a href="../wdd230/lesson06/images/landscape.webp">WebP</a></li>
+                <li class="">07:<a href=""></a></li>
+                <li>08:<a href=""></a></li>
+                <li>09:
+                    <a href="../wdd230/lesson09/new-ward-members.json">New Ward Members</a> | 
+                    <a href="../wdd230/lesson09/prophets.html">Latter-Day Prophets</a></li>
+                <li>10:<a href="../wdd230/lesson10/weather.html">Weather API</a></li>
+            </ul>
+        </section>
+        
+        <section class="card">
+            <h3>Information</h3>
+            <ul class="info-list">
+                <li>Kgatleng, Botswana</li>
+                <li id="temperature">
+                    <span id="current-temp"></span>
+                    <figure>
+                        <img id="weather-icon">
+                        <figcaption></figcaption>
+                    </figure>
+                </li>
+                <li id="visits-label">Page Visits: <span id="visits"></span></li>
+
+            </ul>
+            <div class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d932130.6683200316!2d25.759753133166505!3d-24.131881826358878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebb134f5fb44237%3A0xd4f68b0ebc7e6cec!2sKgatleng%20District%2C%20Botswana!5e0!3m2!1sen!2sus!4v1706397041658!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
-        </section>
-        <section class="current-events">
-            <h2>Events</h2>
-            <img src="../chamber/images/Screenshot_2024-02-10_163641.png" alt="upcoming_event">
-
-        </section>
-        <section class="weather">
-            <h2>Weather</h2>
-            <p>The current temperature in Kgatleng, Botswana is:</p>
-            <figure>
-                <span id="current-temp" margin-bottom="10px"></span><br>
-                <img id="weather-icon">
-                <figcaption></figcaption>
-            </figure>
-            <p>High Temperature Forecasts for the next 5 days:</p>
-            <p><span id="dayofweek1"></span> : <span id="forecast1"></span>&deg; C</p>
-            <p><span id="dayofweek2"></span> : <span id="forecast2"></span>&deg; C</p>
-            <p><span id="dayofweek3"></span> : <span id="forecast3"></span>&deg; C</p>
-            <p><span id="dayofweek4"></span> : <span id="forecast4"></span>&deg; C</p>
-            <p><span id="dayofweek5"></span> : <span id="forecast5"></span>&deg; C</p>
-
-        </section>
-        <section class="spotlights">
-            <h2>Company Advertisements</h2>
-            <div>
-                <img src="../chamber/images/mascom_logo.png" alt="mascom">
-                <img src="../chamber/images/bmc_logo.png" alt="bmc">
             </div>
         </section>
     </main>
     <footer>
-        <p><strong>Email:</strong> info@kgatleng.biz</p>
-        <p><strong>Made By:</strong> Karabo Mamabolo</p>
-        <p><strong>Project:</strong> Chamber of Commerce for WDD 230</p>
         <p>
-            &copy; <span id="year"></span> | Kgatleng Chamber of Commerce | Kgatleng, Botswana 
+            &copy; <span id="year"></span> | Karabo Mamabolo | Kgatleng, Botswana 
         </p>
         <p id="lastModified"></p>
     </footer>
-    <script src="../lesson03/scripts/script.js"></script>
-    <script src="../chamber/scripts/dark-mode.js"></script>
-    <script src="../chamber/scripts/forecast.js"></script>
-    <script src="../chamber/scripts/currentweather.js"></script>
-    <script src="../chamber/scripts/windchill.js"></script>
+    <script src="scripts/getdates.js"></script>
+    
+    <script src="scripts/getweather.js"></script>
 </body>
 </html>
