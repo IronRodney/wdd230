@@ -1,0 +1,29 @@
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode header {
+    background-color: #222;
+}
+
+.dark-mode main {
+    background-color: #111;
+}
+
+.dark-mode footer {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode .weather {
+    background-color: #333;
+}
+
+.dark-mode .current-events {
+    background-color: #333;
+}
+
+.dark-mode .spotlights {
+    background-color: #333;
+}

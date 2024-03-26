@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px; 
+        left: 0;
+        background-color: var(--background-color);
+        width: 100%;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+    
+    .nav-links a {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    *, .discover {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
