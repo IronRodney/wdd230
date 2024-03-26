@@ -41,7 +41,7 @@
     </head>
 <body>
     <header>
-        <img src="../chamber/images/kgatleng-chamber-of-commerce-high-resolution-logo-transparent.png" alt="The_chamber_logo" class="logo">
+        <img src="../chamber/images/kgatleng-chamber-of-commerce-high-resolution-logo-transparent.png" alt="The_chamber_logo" class="logo" />
         <div class="welcome">
             <h3>Welcome to the</h3>
             <h2>Kgatleng Chamber of Commerce</h2>
@@ -50,12 +50,10 @@
         <button id="mode" class="hamburger">&#9776;</button>
 
         <nav class="nav-links">
-            <a href="#">Home</a>
-            <a href="">About</a>
-            <a href="">Advocacy</a>
-            <a href="">Membership</a>
-            <a href="">News</a>
-            <a href="">Member Portal</a>
+            <a href="../chamber/index.html">Home</a>
+            <a href="#">Discover</a>
+            <a href="">Directory</a>
+            <a href="">Join</a>
         </nav>
         <label class="switch">
             <input type="checkbox">
@@ -72,6 +70,28 @@
                 <p><strong>Population Growth Rate: </strong>4.53%</p>
                 <p><strong>Ave Household Size: </strong> 2.96</p>
             </div>
+            <div class="calendar">
+            <header>
+                <h3></h3>
+                <nav>
+                    <button id="prev"></button>
+                    <button id="next"></button>
+                </nav>
+            </header>
+            <div>
+                <ul class="days">
+                    <li class="sun">Sun</li>
+                    <li class="mon">Mon</li>
+                    <li class="tue">Tue</li>
+                    <li class="wed">Wed</li>
+                    <li class="thu">Thu</li>
+                    <li class="fri">Fri</li>
+                    <li class="sat">Sat</li>
+                </ul>
+                <ul class="dates"></ul>
+            </div>
+        </div>
+        
         </div>
     </main>
     <footer>
@@ -84,5 +104,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="../lesson03/scripts/script.js"></script>
+    <script src="../chamber/scripts/calendar-test.js" defer></script>
+    <script src="../chamber/scripts/dark-mode.js"></script>
 </body>
 </html>
