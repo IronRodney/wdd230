@@ -1,12 +1,29 @@
+/* Resetting default browser styles */
+body, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Variables */
+:root {
+    --primary-color: #363636;
+    --secondary-color: #0056b3;
+    --text-color: #333;
+    --bg-color: #EFFFDD;
+    --border-color: #ccc;
+    --border-radius: 5px;
+    --button-hover-color: #004080;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #333;
-    background-color: #EFFFDD;
+    color: var(--text-color);
+    background-color: var(--bg-color);
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
-
 
 main {
     display: grid;
@@ -43,7 +60,6 @@ nav {
     display: flex;
     justify-content: center;
     position: relative;
-
 }
 
 nav a {
@@ -51,16 +67,15 @@ nav a {
     justify-content: center;
     text-decoration: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     transition: background-color 0.3s ease;
     font-weight: bold;
-    color: #006400;
+    color: var(--primary-color);
 }
 
 nav a:hover {
-    background-color: #006400;
+    background-color: var(--primary-color);
     color: #fff;
-
 }
 
 .hero {
@@ -68,7 +83,6 @@ nav a:hover {
     position: relative;
     border: 1px solid rgba(0, 0, 0, .1);
     height: 300px;
-    
 }
 
 .hero img {
@@ -97,13 +111,13 @@ nav a:hover {
 }
 
 img {
-    border-radius: 8px;
+    border-radius: var(--border-radius);
 }
 
 ul {
     list-style-type: none;
     padding-left: 20px;
-  }
+}
 
 .info-list {
     list-style: none;
@@ -129,7 +143,7 @@ ul {
 }
 
 h2 {
-    color: #006400;
+    color: var(--primary-color);
 }
 
 .card h3 {
@@ -138,9 +152,8 @@ h2 {
 
 .card {
     background-color: #f9f9f9;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     padding: 30px;
-
 }
 
 .card-container {
@@ -159,12 +172,12 @@ footer {
     margin-top: 20px;
     padding: 10px 0;
     background-color: #333;
-    color: #fff
+    color: #fff;
 }
 
 a {
     display: inline-block;
-    color: #006400;
+    color: var(--primary-color);
     margin: 0 10px;
 }
 
@@ -184,28 +197,62 @@ a {
     margin-right: 5px;
 }
 
-figure, figcaption {
+figure,
+figcaption {
     display: inline-block;
     margin: 0;
 }
 
-
-
-
-
-@media (width < 600px) {
-    main {
-        grid-template-columns: 1fr;
-    }
+/* Form Styles */
+form {
+    display: grid;
+    gap: 15px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (width >= 600px) or (orientation: landscape) {
-    
-    main {
-        grid-template-columns: repeat(2, 1fr);
-    }
+label {
+    font-weight: bold;
+}
 
-    .card:nth-child(1) {
-        grid-column: 1;
-    }
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"],
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"] {
+    color: var(--text-color);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="range"]:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--button-hover-color);
 }
