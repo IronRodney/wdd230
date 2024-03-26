@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+        name="description" 
+        content="WDD 230 - Web Frontend Development
+        Karabo Mamabolo
+        course assignment portal - Chamber of Commerce Project" />
+    <meta name="author" content="Karabo Mamabolo" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Kgatleng Chamber of Commerce - Home Page</title>
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://ironrodney.github.io/wdd230/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Karabo Mamabolo - WDD 230 - Web Frontend Development">
+    <meta property="og:description" content="WDD 230 - Web Frontend Development
+        Karabo Mamabolo
+        Kgatleng Chamber of Commerce">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/2/23/Mochudi.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="ironrodney.github.io">
+    <meta property="twitter:url" content="https://ironrodney.github.io/wdd230/">
+    <meta name="twitter:title" content="Karabo Mamabolo - WDD 230 - Web Frontend Development">
+    <meta name="twitter:description" content="WDD 230 - Web Frontend Development
+        Karabo Mamabolo
+        Kgatleng Chamber of Commerce">
+    <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/2/23/Mochudi.jpg">
+    </head>
+<body>
+    <header>
+        <img src="../chamber/images/kgatleng-chamber-of-commerce-high-resolution-logo-transparent.png" alt="The_chamber_logo" class="logo" />
+        <div class="welcome">
+            <h3>Welcome to the</h3>
+            <h2>Kgatleng Chamber of Commerce</h2>
+        </div>
+
+        <button id="mode" class="hamburger">&#9776;</button>
+
+        <nav class="nav-links">
+            <a href="../chamber/index.html">Home</a>
+            <a href="#">Discover</a>
+            <a href="">Directory</a>
+            <a href="">Join</a>
+        </nav>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+
+
+    </header>
+    <main class="discover">
+        <div class="sidebar">
+            <div class="demographics">
+                <h3>Demographics</h3>
+                <p><strong>Population: </strong>91 660</p>
+                <p><strong>Population Growth Rate: </strong>4.53%</p>
+                <p><strong>Ave Household Size: </strong> 2.96</p>
+            </div>
+            <div class="calendar">
+            <header>
+                <h3></h3>
+                <nav>
+                    <button id="prev"></button>
+                    <button id="next"></button>
+                </nav>
+            </header>
+            <div>
+                <ul class="days">
+                    <li class="sun">Sun</li>
+                    <li class="mon">Mon</li>
+                    <li class="tue">Tue</li>
+                    <li class="wed">Wed</li>
+                    <li class="thu">Thu</li>
+                    <li class="fri">Fri</li>
+                    <li class="sat">Sat</li>
+                </ul>
+                <ul class="dates"></ul>
+            </div>
+        </div>
+        
+        </div>
+        <div class="botswana-images">
+
+            <picture>
+                <source media="(max-width: 500px)" srcset="../chamber/images/botswana-970276_640.webp" width="400" height="207"/>
+                <source media="(max-width: 1000px)" srcset="../chamber/images/botswana-970276_1280.webp" />
+                <img src="../chamber/images/botswana-970276_1280.webp" alt="Kgatleng Chamber of Commerce offices" width="800" height="414">
+                <div class="picture-label">
+                    <p>Kgatleng Chamber of Commerce offices</p>
+                </div>
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="../chamber/images/zebra-718278_640.webp" width="400" height="270"/>
+                <source media="(max-width: 1000px)" srcset="../chamber/images/zebra-718278_1280.webp" />
+                <img src="../chamber/images/zebra-718278_1280.webp" alt="Zebras" width="800" height="541">
+                <div class="picture-label">
+                    <p>The Zebra - Botswana's National Animal</p>
+                </div>
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="../chamber/images/sunset-3326980_640.webp" width="400" height="270"/>
+                <source media="(max-width: 1000px)" srcset="../chamber/images/sunset-3326980_1280.webp" />
+                <img src="../chamber/images/sunset-3326980_1280.webp" alt="Sunset" width="800" height="541">
+                <div class="herolabel">
+                    <p>Our Serene Sunsets</p>
+                </div>
+            </picture>
+
+        </div>
+    </main>
+    <footer>
+        <p><strong>Email:</strong> info@kgatleng.biz</p>
+        <p><strong>Made By:</strong> Karabo Mamabolo</p>
+        <p><strong>Project:</strong> Chamber of Commerce for WDD 230</p>
+        <p>
+            &copy; <span id="year"></span> | Kgatleng Chamber of Commerce | Kgatleng, Botswana 
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="../lesson03/scripts/script.js"></script>
+    <script src="../chamber/scripts/calendar-test.js" defer></script>
+    <script src="../chamber/scripts/dark-mode.js"></script>
+</body>
+</html>

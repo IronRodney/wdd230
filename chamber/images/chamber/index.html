@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+        name="description" 
+        content="WDD 230 - Web Frontend Development
+        Karabo Mamabolo
+        course assignment portal - Chamber of Commerce Project" />
+    <meta name="author" content="Karabo Mamabolo" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/dark-mode.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Kgatleng Chamber of Commerce - Home Page</title>
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://ironrodney.github.io/wdd230/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Karabo Mamabolo - WDD 230 - Web Frontend Development">
+    <meta property="og:description" content="WDD 230 - Web Frontend Development
+        Karabo Mamabolo
+        Kgatleng Chamber of Commerce">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/2/23/Mochudi.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="ironrodney.github.io">
+    <meta property="twitter:url" content="https://ironrodney.github.io/wdd230/">
+    <meta name="twitter:title" content="Karabo Mamabolo - WDD 230 - Web Frontend Development">
+    <meta name="twitter:description" content="WDD 230 - Web Frontend Development
+        Karabo Mamabolo
+        Kgatleng Chamber of Commerce">
+    <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/2/23/Mochudi.jpg">
+    </head>
+<body>
+    <header>
+        <img src="../chamber/images/kgatleng-chamber-of-commerce-high-resolution-logo-transparent.png" alt="The_chamber_logo" class="logo">
+        <div class="welcome">
+            <h3>Welcome to the</h3>
+            <h2>Kgatleng Chamber of Commerce</h2>
+        </div>
+
+        <button id="mode" class="hamburger">&#9776;</button>
+
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="../chamber/discover.html">Discover</a>
+            <a href="">Directory</a>
+            <a href="">Join</a>
+        </nav>
+        <label class="switch">
+            <input type="checkbox" id="dark-mode-toggle">
+            <span class="slider round"></span>
+        </label>
+
+
+    </header>
+    <main>
+        <section class="hero">
+            <img src="../chamber/images/camelthorn-tree-acacia-sunrise-1536x1024.webp" alt="Sunrise and acacia tree">
+            <div class="hero-text">
+            <h1>
+                Kgatleng Chamber of Commerce: <br>
+                In Business For A Better Kgatleng
+            </h1>
+            <p>Want to make a difference in the Kgatleng business landscape?</p>
+            <button class="action-button">Join Now!</button>
+            </div>
+
+        </section>
+        <section class="current-events">
+            <h2>Events</h2>
+            <img src="../chamber/images/Screenshot_2024-02-10_163641.png" alt="upcoming_event">
+
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <p>The current temperature in Kgatleng, Botswana is:</p>
+            <figure>
+                <span id="current-temp" margin-bottom="10px"></span><br>
+                <img id="weather-icon">
+                <figcaption></figcaption>
+            </figure>
+            <p>High Temperature Forecasts for the next 5 days:</p>
+            <p><span id="dayofweek1"></span> : <span id="forecast1"></span>&deg; C</p>
+            <p><span id="dayofweek2"></span> : <span id="forecast2"></span>&deg; C</p>
+            <p><span id="dayofweek3"></span> : <span id="forecast3"></span>&deg; C</p>
+            <p><span id="dayofweek4"></span> : <span id="forecast4"></span>&deg; C</p>
+            <p><span id="dayofweek5"></span> : <span id="forecast5"></span>&deg; C</p>
+
+        </section>
+        <section class="spotlights">
+            <h2>Company Advertisements</h2>
+            <div>
+                <img src="../chamber/images/mascom_logo.png" alt="mascom">
+                <img src="../chamber/images/bmc_logo.png" alt="bmc">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><strong>Email:</strong> info@kgatleng.biz</p>
+        <p><strong>Made By:</strong> Karabo Mamabolo</p>
+        <p><strong>Project:</strong> Chamber of Commerce for WDD 230</p>
+        <p>
+            &copy; <span id="year"></span> | Kgatleng Chamber of Commerce | Kgatleng, Botswana 
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="../lesson03/scripts/script.js"></script>
+    <script src="../chamber/scripts/dark-mode.js"></script>
+    <script src="../chamber/scripts/forecast.js"></script>
+    <script src="../chamber/scripts/currentweather.js"></script>
+    <script src="../chamber/scripts/windchill.js"></script>
+</body>
+</html>
