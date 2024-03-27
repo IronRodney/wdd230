@@ -1,0 +1,66 @@
+[
+    {
+      "name": "TechSavvy Solutions",
+      "address": "12 Technology Avenue, Gaborone, Kgatleng, Botswana",
+      "phone": "+267 72 123 456",
+      "image": "techsavvy_logo.png",
+      "membership_level": "Gold",
+      "additional_info": "Innovative IT solutions for businesses.",
+      "membership_expiry": "2024-12-31"
+    },
+    {
+      "name": "GreenGrowth Landscapes",
+      "address": "34 Greenery Road, Mochudi, Kgatleng, Botswana",
+      "phone": "+267 73 234 567",
+      "website": "https://www.greengrowthlandscapes.co.bw",
+      "membership_level": "Silver",
+      "additional_info": "Creating sustainable landscapes with a touch of elegance.",
+      "membership_expiry": "2024-09-30"
+    },
+    {
+      "name": "Savory Delights Catering",
+      "address": "56 Taste Street, Gaborone, Kgatleng, Botswana",
+      "phone": "+267 71 345 678",
+      "website": "https://www.savorydelights.co.bw",
+      "membership_level": "Bronze",
+      "additional_info": "Exquisite catering services for all occasions.",
+      "membership_expiry": "2024-06-30"
+    },
+    {
+      "name": "FitFusion Fitness Studio",
+      "address": "78 Wellness Plaza, Mochudi, Kgatleng, Botswana",
+      "phone": "+267 74 456 789",
+      "website": "https://www.fitfusion.co.bw",
+      "membership_level": "Gold",
+      "additional_info": "Fusing fitness and wellness for a healthier lifestyle.",
+      "membership_expiry": "2024-12-31"
+    },
+    {
+      "name": "MobileMasters Phone Repairs",
+      "address": "90 Mobile Street, Gaborone, Kgatleng, Botswana",
+      "phone": "+267 75 567 890",
+      "website": "https://www.mobilemasters.co.bw",
+      "membership_level": "Silver",
+      "additional_info": "Experts in quick and reliable phone repair services.",
+      "membership_expiry": "2024-09-30"
+    },
+    {
+      "name": "Zenith Spa Retreat",
+      "address": "102 Serenity Avenue, Mochudi, Kgatleng, Botswana",
+      "phone": "+267 76 678 901",
+      "website": "https://www.zenithspa.co.bw",
+      "membership_level": "Bronze",
+      "additional_info": "Discover tranquility and rejuvenation at our spa retreat.",
+      "membership_expiry": "2024-06-30"
+    },
+    {
+      "name": "ArtisanCrafts Botswana",
+      "address": "124 Craftsmanship Road, Gaborone, Kgatleng, Botswana",
+      "phone": "+267 79 789 012",
+      "website": "https://www.artisancrafts.co.bw",
+      "membership_level": "Gold",
+      "additional_info": "Celebrating local artistry with handcrafted treasures.",
+      "membership_expiry": "2024-12-31"
+    }
+  ]
+  

@@ -51,60 +51,24 @@
         <button id="mode" class="hamburger">&#9776;</button>
 
         <nav class="nav-links">
-            <a href="#">Home</a>
+            <a href="../chamber/index.html">Home</a>
             <a href="../chamber/discover.html">Discover</a>
-            <a href="../chamber/directory.html">Directory</a>
+            <a href="#">Directory</a>
             <a href="">Join</a>
         </nav>
         <label class="switch">
             <input type="checkbox" id="dark-mode-toggle">
             <span class="slider round"></span>
         </label>
-
-
     </header>
     <main>
-        <section class="hero">
-            <img src="../chamber/images/camelthorn-tree-acacia-sunrise-1536x1024.webp" alt="Sunrise and acacia tree">
-            <div class="hero-text">
-            <h1>
-                Kgatleng Chamber of Commerce: <br>
-                In Business For A Better Kgatleng
-            </h1>
-            <p>Want to make a difference in the Kgatleng business landscape?</p>
-            <button class="action-button">Join Now!</button>
-            </div>
-
-        </section>
-        <section class="current-events">
-            <h2>Events</h2>
-            <img src="../chamber/images/Screenshot_2024-02-10_163641.png" alt="upcoming_event">
-
-        </section>
-        <section class="weather">
-            <h2>Weather</h2>
-            <p>The current temperature in Kgatleng, Botswana is:</p>
-            <figure>
-                <span id="current-temp" margin-bottom="10px"></span><br>
-                <img id="weather-icon">
-                <figcaption></figcaption>
-            </figure>
-            <p>High Temperature Forecasts for the next 5 days:</p>
-            <p><span id="dayofweek1"></span> : <span id="forecast1"></span>&deg; C</p>
-            <p><span id="dayofweek2"></span> : <span id="forecast2"></span>&deg; C</p>
-            <p><span id="dayofweek3"></span> : <span id="forecast3"></span>&deg; C</p>
-            <p><span id="dayofweek4"></span> : <span id="forecast4"></span>&deg; C</p>
-            <p><span id="dayofweek5"></span> : <span id="forecast5"></span>&deg; C</p>
-
-        </section>
-        <section class="spotlights">
-            <h2>Company Advertisements</h2>
-            <div>
-                <img src="../chamber/images/mascom_logo.png" alt="mascom">
-                <img src="../chamber/images/bmc_logo.png" alt="bmc">
-            </div>
-        </section>
-    </main>
+        <div class="view-toggle">
+          <button id="grid-view-btn">Grid View</button>
+          <button id="list-view-btn">List View</button>
+        </div>
+        <div id="members-container" class="members-grid">
+        </div>
+      </main>
     <footer>
         <p><strong>Email:</strong> info@kgatleng.biz</p>
         <p><strong>Made By:</strong> Karabo Mamabolo</p>
@@ -119,5 +83,6 @@
     <script src="../chamber/scripts/forecast.js"></script>
     <script src="../chamber/scripts/currentweather.js"></script>
     <script src="../chamber/scripts/windchill.js"></script>
+    <script src="../chamber/scripts/directory.js"></script>
 </body>
 </html>
